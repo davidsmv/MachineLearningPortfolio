@@ -24,11 +24,7 @@ machine-learning-projects/
    ```bash
    cd MachineLearningPortfolio
    ```
-3. Open Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-4. Navigate to `linear_regression_proyects/` or any other carpet and select the project you want to explore.
+3. Navigate to `linear_regression_proyects/` or any other carpet and select the project you want to explore.
 
 ## Requirements
 To run the notebooks, install the required dependencies:
@@ -38,8 +34,8 @@ pip install -r requirements.txt
 
 ## Project Descriptions
 ### Linear Regression Projects
-- **1 - CLVT_with_linear_regression**: This project aims to develop a machine learning model using linear regression to predict the Customer Lifetime Value (CLTV).
-- **2 - House_Price_with_Linear_Regression**: Predict house prices by building a robust linear regression model.
+- **[1 - CLVT_with_linear_regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/1%20-%20CLVT_with_linear_regression.ipynb)**: This project aims to develop a machine learning model using linear regression to predict the Customer Lifetime Value (CLTV).
+- **[2 - House_Price_with_Linear_Regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/2%20-%20House_Price_with_Linear_Regression.ipynb)**: Predict house prices by building a robust linear regression model.
 
 
 ## Author
