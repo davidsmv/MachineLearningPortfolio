@@ -17,7 +17,9 @@ fastjsonschema==2.21.1
 fonttools==4.55.3
     # via matplotlib
 joblib==1.4.2
-    # via scikit-learn
+    # via
+    #   scikit-learn
+    #   scikit-optimize
 jsonschema==4.23.0
     # via nbformat
 jsonschema-specifications==2024.10.1
@@ -40,6 +42,7 @@ numpy==2.2.1
     #   patsy
     #   plotly-express
     #   scikit-learn
+    #   scikit-optimize
     #   scipy
     #   seaborn
     #   statsmodels
@@ -47,6 +50,7 @@ packaging==24.2
     # via
     #   matplotlib
     #   plotly
+    #   scikit-optimize
     #   statsmodels
 pandas==2.2.3
     # via
@@ -66,6 +70,8 @@ plotly==5.24.1
     # via plotly-express
 plotly-express==0.4.1
     # via -r requirements.in
+pyaml==25.1.0
+    # via scikit-optimize
 pyparsing==3.2.1
     # via matplotlib
 python-dateutil==2.9.0.post0
@@ -76,6 +82,8 @@ pytz==2024.2
     # via pandas
 pywin32==308
     # via jupyter-core
+pyyaml==6.0.2
+    # via pyaml
 referencing==0.35.1
     # via
     #   jsonschema
@@ -85,11 +93,16 @@ rpds-py==0.22.3
     #   jsonschema
     #   referencing
 scikit-learn==1.6.0
+    # via
+    #   -r requirements.in
+    #   scikit-optimize
+scikit-optimize==0.10.2
     # via -r requirements.in
 scipy==1.14.1
     # via
     #   plotly-express
     #   scikit-learn
+    #   scikit-optimize
     #   statsmodels
 seaborn==0.13.2
     # via -r requirements.in

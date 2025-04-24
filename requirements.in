@@ -4,3 +4,4 @@ seaborn
 plotly-express
 scikit-learn
 nbformat
+scikit-optimize
