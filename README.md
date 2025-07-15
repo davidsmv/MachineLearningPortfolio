@@ -10,6 +10,8 @@ machine-learning-projects/
 │── linear_regression_proyects/        # Folder for linear regression projects
 │   │── 1 - CLVT_with_linear_regression.ipynb
 │   │── 2 - House_Price_with_Linear_Regression.ipynb
+│── classifications_proyects/
+│   │── 1 - Obesity_Risk_with_classifications.ipynb
 │── requirements.txt
 │── README.md                     # Overview of the repo
 │── .gitignore                     # Ignore unnecessary files
@@ -36,6 +38,8 @@ pip install -r requirements.txt
 ### Linear Regression Projects
 - **[1 - CLVT_with_linear_regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/1%20-%20CLVT_with_linear_regression.ipynb)**: This project aims to develop a machine learning model using linear regression to predict the Customer Lifetime Value (CLTV).
 - **[2 - House_Price_with_Linear_Regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/2%20-%20House_Price_with_Linear_Regression.ipynb)**: Predict house prices by building a robust linear regression model.
+### Classificatioms Projects
+- **[1 - Obesity_Risk_with_classifications](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/classifications_proyects)**: Predict house prices by building a robust linear regression model.
 
 
 ## Author
