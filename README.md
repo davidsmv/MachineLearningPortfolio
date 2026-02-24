@@ -1,52 +1,86 @@
-# Machine Learning Portafolio
+# Machine Learning Portfolio
 
-## Overview
-This repository contains various personal machine learning projects, primarily developed in Jupyter notebooks. The projects are categorized based on machine learning techniques such as linear regression, classification, and clustering. Each project is self-contained and includes data analysis, model training, and predictions.
+Personal machine learning portfolio with notebook-based projects focused on regression, classification, and dimensionality reduction, plus a small coding-challenges section.
 
-## Repository Structure
+## Repository Overview
+
+```text
+MachineLearningPortfolio/
+├── classification_projects/
+│   └── 1 - Obesity_Risk_with_classifications.ipynb
+├── linear_regression_projects/
+│   ├── 1 - CLVT_with_linear_regression.ipynb
+│   ├── 2 - House_Price_with_Linear_Regression.ipynb
+│   └── pairplot_df.png
+├── dimensionality_reduction/
+│   └── High_Dimensional_Datascape.ipynb
+├── coding_challenges/
+│   ├── codewars/
+│   │   ├── battery.ipynb
+│   │   ├── polynomial_regression_office_prices.py
+│   │   └── tests.ipynb
+│   └── HackerRank/
+│       └── test.ipynb
+├── data/
+│   ├── CLTV_project/
+│   ├── house_price_project/
+│   ├── obesity_risk_project/
+│   └── high_dimensional_datascape_proyect/
+├── requirements.in
+├── requirements.txt
+└── LICENSE
 ```
-machine-learning-projects/
-│── data/                        # Raw CSV files used in different projects
-│── linear_regression_proyects/        # Folder for linear regression projects
-│   │── 1 - CLVT_with_linear_regression.ipynb
-│   │── 2 - House_Price_with_Linear_Regression.ipynb
-│── classifications_proyects/
-│   │── 1 - Obesity_Risk_with_classifications.ipynb
-│── requirements.txt
-│── README.md                     # Overview of the repo
-│── .gitignore                     # Ignore unnecessary files
-```
 
-## How to Use
-1. Clone this repository:
+## Projects
+
+### Linear Regression
+- **[CLTV with Linear Regression](linear_regression_projects/1%20-%20CLVT_with_linear_regression.ipynb)**  
+  Predicts Customer Lifetime Value (CLTV) from historical customer features.
+- **[House Price with Linear Regression](linear_regression_projects/2%20-%20House_Price_with_Linear_Regression.ipynb)**  
+  Builds and evaluates a house-price prediction workflow.
+
+### Classification
+- **[Obesity Risk with Classification](classification_projects/1%20-%20Obesity_Risk_with_classifications.ipynb)**  
+  Trains classification models for obesity-risk prediction.
+
+### Dimensionality Reduction
+- **[High Dimensional Datascape](dimensionality_reduction/High_Dimensional_Datascape.ipynb)**  
+  Explores high-dimensional data reduction and visualization techniques.
+
+### Coding Challenges
+- Extra practice notebooks and scripts live under `coding_challenges/` (Codewars and HackerRank exercises).
+
+## Data
+
+Project datasets and generated outputs are grouped by project under `data/`.  
+Each subfolder contains the files needed by its corresponding notebook (for example `train.csv`, `test.csv`, submissions, and plots).
+
+## Getting Started
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/davidsmv/MachineLearningPortfolio.git
-   ```
-2. Navigate to the repository:
-   ```bash
    cd MachineLearningPortfolio
    ```
-3. Navigate to `linear_regression_proyects/` or any other carpet and select the project you want to explore.
+2. (Optional) Create and activate a virtual environment.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Launch Jupyter and open any notebook from a project folder.
 
-## Requirements
-To run the notebooks, install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+## Notes
 
-## Project Descriptions
-### Linear Regression Projects
-- **[1 - CLVT_with_linear_regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/1%20-%20CLVT_with_linear_regression.ipynb)**: This project aims to develop a machine learning model using linear regression to predict the Customer Lifetime Value (CLTV).
-- **[2 - House_Price_with_Linear_Regression](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/linear_regression_projects/2%20-%20House_Price_with_Linear_Regression.ipynb)**: Predict house prices by building a robust linear regression model.
-### Classificatioms Projects
-- **[1 - Obesity_Risk_with_classifications](https://github.com/davidsmv/MachineLearningPortfolio/blob/main/classification_projects/1%20-%20Obesity_Risk_with_classifications.ipynb)**: Predict house prices by building a robust linear regression model.
-
+- `requirements.in` is the source dependency list.
+- `requirements.txt` is the pinned environment file used for reproducible installs.
 
 ## Author
-David Martínez
-GitHub: [David Martínez](https://github.com/davidsmv)  
+
+David Martínez  
+GitHub: [@davidsmv](https://github.com/davidsmv)  
 Email: david-martinezv@outlook.com
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
