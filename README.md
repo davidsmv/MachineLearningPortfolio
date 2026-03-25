@@ -10,17 +10,16 @@ MachineLearningPortfolio/
 │   └── 1 - Obesity_Risk_with_classifications.ipynb
 ├── linear_regression_projects/
 │   ├── 1 - CLVT_with_linear_regression.ipynb
-│   ├── 2 - House_Price_with_Linear_Regression.ipynb
-│   └── pairplot_df.png
+│   └── 2 - House_Price_with_Linear_Regression.ipynb
 ├── dimensionality_reduction/
-│   └── High_Dimensional_Datascape.ipynb
+│   └── 1 - High_Dimensional_Datascape.ipynb
 ├── coding_challenges/
 │   ├── codewars/
-│   │   ├── battery.ipynb
-│   │   ├── polynomial_regression_office_prices.py
-│   │   └── tests.ipynb
+│   │   └── test.ipynb
 │   └── HackerRank/
-│       └── test.ipynb
+│       ├── battery.ipynb
+│       ├── polynomial_regression_office_prices.py
+│       └── tests.ipynb
 ├── data/
 │   ├── CLTV_project/
 │   ├── house_price_project/
@@ -44,11 +43,18 @@ MachineLearningPortfolio/
   Trains classification models for obesity-risk prediction.
 
 ### Dimensionality Reduction
-- **[High Dimensional Datascape](dimensionality_reduction/High_Dimensional_Datascape.ipynb)**  
+- **[High Dimensional Datascape](dimensionality_reduction/1%20-%20High_Dimensional_Datascape.ipynb)**  
   Explores high-dimensional data reduction and visualization techniques.
 
 ### Coding Challenges
-- Extra practice notebooks and scripts live under `coding_challenges/` (Codewars and HackerRank exercises).
+- **[Codewars practice notebook](coding_challenges/codewars/test.ipynb)**  
+  Small notebook-based practice problems and experiments.
+- **[HackerRank battery notebook](coding_challenges/HackerRank/battery.ipynb)**  
+  Notebook work for HackerRank exercises.
+- **[HackerRank office prices script](coding_challenges/HackerRank/polynomial_regression_office_prices.py)**  
+  Script version that reads from standard input for the HackerRank judge.
+- **[HackerRank tests notebook](coding_challenges/HackerRank/tests.ipynb)**  
+  Notebook used to validate and iterate on challenge solutions.
 
 ## Data
 
