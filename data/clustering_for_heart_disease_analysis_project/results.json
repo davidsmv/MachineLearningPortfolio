@@ -1,0 +1,18 @@
+{
+    "Kmeans": {
+        "metrics": {
+            "silhouette_score": 0.40188313477694204
+        },
+        "params": {
+            "k": 251
+        }
+    },
+    "MiniBatchKMeans": {
+        "metrics": {
+            "silhouette_score": 0.35864297958917546
+        },
+        "params": {
+            "k": 201
+        }
+    }
+}
