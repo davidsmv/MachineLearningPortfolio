@@ -1,18 +1,11 @@
 {
     "Kmeans": {
         "metrics": {
-            "silhouette_score": 0.40188313477694204
+            "silhouette_score": 0.22568904848429625,
+            "composite_score": 0.22568904848429625
         },
         "params": {
-            "k": 251
-        }
-    },
-    "MiniBatchKMeans": {
-        "metrics": {
-            "silhouette_score": 0.35864297958917546
-        },
-        "params": {
-            "k": 201
+            "n_clusters": 23
         }
     }
 }
