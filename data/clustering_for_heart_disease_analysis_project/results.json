@@ -16,17 +16,5 @@
         "params": {
             "n_clusters": 5
         }
-    },
-    "DBSCAN": {
-        "metrics": {
-            "silhouette_score": 0.12215392319495268,
-            "composite_score": 0.10622080277821973,
-            "n_clusters": 5,
-            "noise_fraction": 0.12391304347826088
-        },
-        "params": {
-            "eps": 1.3716676133667536,
-            "min_samples": 11
-        }
     }
 }
