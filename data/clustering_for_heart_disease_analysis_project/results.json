@@ -1,32 +1,32 @@
 {
     "Kmeans": {
         "metrics": {
-            "silhouette_score": 0.19997250878011485,
-            "composite_score": 0.19997250878011485
-        },
-        "params": {
-            "n_clusters": 8
-        }
-    },
-    "Mini Batch KMeans": {
-        "metrics": {
-            "silhouette_score": 0.18784127852969473,
-            "composite_score": 0.18784127852969473
+            "silhouette_score": 0.24115949121643634,
+            "composite_score": 0.24115949121634866
         },
         "params": {
             "n_clusters": 5
         }
     },
-    "DBSCAN": {
+    "Mini Batch KMeans": {
         "metrics": {
-            "silhouette_score": 0.12307138583433888,
-            "composite_score": 0.10701859637768599,
-            "n_clusters": 5,
-            "noise_fraction": 0.09021739130434783
+            "silhouette_score": 0.1998299661491701,
+            "composite_score": 0.1998299661490081
         },
         "params": {
-            "eps": 1.3775497603909834,
-            "min_samples": 8
+            "n_clusters": 6
+        }
+    },
+    "DBSCAN": {
+        "metrics": {
+            "silhouette_score": 0.15321051799906898,
+            "composite_score": 0.14321852769478188,
+            "n_clusters": 11,
+            "noise_fraction": 0.7739130434782608
+        },
+        "params": {
+            "eps": 0.25511171747093797,
+            "min_samples": 10
         }
     }
 }
