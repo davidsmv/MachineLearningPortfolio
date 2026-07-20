@@ -28,5 +28,14 @@
             "eps": 0.25511171747093797,
             "min_samples": 10
         }
+    },
+    "Agglomerative Clustering": {
+        "metrics": {
+            "silhouette_score": 0.23581451803655057,
+            "composite_score": 0.23581451803655057
+        },
+        "params": {
+            "n_clusters": 5
+        }
     }
 }
