@@ -37,5 +37,14 @@
         "params": {
             "n_clusters": 5
         }
+    },
+    "Spectral Clustering": {
+        "metrics": {
+            "silhouette_score": 0.2076327045968239,
+            "composite_score": 0.2076327045968239
+        },
+        "params": {
+            "n_clusters": 9
+        }
     }
 }
