@@ -46,5 +46,14 @@
         "params": {
             "n_clusters": 9
         }
+    },
+    "Gaussian Mixture": {
+        "metrics": {
+            "silhouette_score": 0.2415474981625352,
+            "composite_score": 0.2415474981625352
+        },
+        "params": {
+            "n_components": 5
+        }
     }
 }
