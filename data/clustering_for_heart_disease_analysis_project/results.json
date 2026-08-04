@@ -55,5 +55,19 @@
         "params": {
             "n_components": 5
         }
+    },
+    "Bayesian Gaussian Mixture": {
+        "metrics": {
+            "silhouette_score": 0.19075827840597576,
+            "composite_score": 0.16587676383128327,
+            "active_components": 10
+        },
+        "params": {
+            "n_components": 10,
+            "covariance_type": "tied",
+            "reg_covar": 1.4043382209117954e-08,
+            "weight_concentration_prior": 7.435422842868932,
+            "weight_concentration_prior_type": "dirichlet_process"
+        }
     }
 }
